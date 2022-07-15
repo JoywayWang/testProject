@@ -5,15 +5,15 @@
       <el-menu-item index="/">首页</el-menu-item>
       <!-- 引用其他的子应用 -->
       <el-menu-item index="/test">test应用</el-menu-item>
-      <el-menu-item index="/vue">vue应用</el-menu-item>
+      <!-- <el-menu-item index="/vue">vue应用</el-menu-item>
       <el-menu-item index="/react">react应用</el-menu-item>
-      <el-menu-item index="/jq">jq应用</el-menu-item>
+      <el-menu-item index="/jq">jq应用</el-menu-item> -->
     </el-menu>
     <router-view v-show="$route.name"></router-view>
     <div id="test"></div>
-    <div id="vue"></div>
+    <!-- <div id="vue"></div>
     <div id="react"></div>
-    <div id="jq"></div>
+    <div id="jq"></div> -->
   </div>
 </template>
 
